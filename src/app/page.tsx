@@ -1,6 +1,7 @@
 import Navigation from "./components/Navigation";
 import Hero from "./components/sections/Hero";
 import About from "./components/sections/About";
+import Skills from "./components/sections/Skills";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center h-full w-full mt-15">
         <Hero />
         <About />
+        <Skills />
       </main>
     </div>
   );
