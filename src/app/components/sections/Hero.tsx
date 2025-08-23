@@ -21,7 +21,7 @@ const Hero = () => {
 
       {/* IMAGE */}
       <div
-        className="overflow-hidden w-[min(80vw,20rem)] h-[min(80vw,20rem)] md:w-[min(40vw,28rem)] md:h-[min(40vw,28rem)]"
+        className="overflow-hidden w-[min(80svw,20rem)] h-[min(80svw,20rem)] md:w-[min(40svw,28rem)] md:h-[min(40svw,28rem)]"
         style={{
           clipPath:
             "polygon(100% 17%, 100% 55%, 59% 100%, 0 100%, 0 39%, 37% 0, 73% 0)",
