@@ -1,0 +1,54 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "service 1"
+    },
+    {
+      "id": 2,
+      "name": "service 2"
+    },
+    {
+      "id": 3,
+      "name": "service 3"
+    },
+    {
+      "id": 4,
+      "name": "service 4"
+    },
+    {
+      "id": 5,
+      "name": "service 5"
+    },
+    {
+      "id": 6,
+      "name": "service 6"
+    }
+  ],
+  "expertise": [
+    {
+      "id": 1,
+      "name": "service 1"
+    },
+    {
+      "id": 2,
+      "name": "service 2"
+    },
+    {
+      "id": 3,
+      "name": "service 3"
+    },
+    {
+      "id": 4,
+      "name": "service 4"
+    },
+    {
+      "id": 5,
+      "name": "service 5"
+    },
+    {
+      "id": 6,
+      "name": "service 6"
+    }
+  ]
+}
