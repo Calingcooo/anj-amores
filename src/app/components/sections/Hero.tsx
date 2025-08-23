@@ -8,7 +8,7 @@ const Hero = () => {
       {/* TEXT */}
       <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left md:w-1/2">
         <h1 className="text-[#888] text-3xl sm:text-4xl md:text-6xl font-bold uppercase leading-tight">
-          i’m angelica amores, at your service!
+          i&apos;m angelica amores, at your service!
         </h1>
         <h2 className="text-[#aaa] text-lg sm:text-xl md:text-2xl capitalize mt-4">
           i can be your virtual assistant
