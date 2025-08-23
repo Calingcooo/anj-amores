@@ -8,7 +8,7 @@ const About = () => {
       </div>
 
       <div className="flex items-center justify-center">
-        <h2 className="text-2xl text-center lg:text-7xl font-black uppercase text-black drop-shadow-lg tracking-widest">
+        <h2 className="text-2xl text-center lg:text-7xl font-black uppercase text-[#5c5c5c] drop-shadow-lg tracking-widest">
           I&apos;m very qualified to help.
         </h2>
       </div>
