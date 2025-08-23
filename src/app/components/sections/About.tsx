@@ -9,7 +9,7 @@ const About = () => {
 
       <div className="flex items-center justify-center">
         <h2 className="text-2xl text-center lg:text-7xl font-black uppercase text-black drop-shadow-lg tracking-widest">
-          I'm very qualified to help.
+          I&apos;m very qualified to help.
         </h2>
       </div>
 
