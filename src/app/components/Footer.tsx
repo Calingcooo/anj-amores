@@ -38,7 +38,7 @@ const Footer = () => {
     },
   ];
   return (
-    <footer className="flex flex-col md:flex-row items-center justify-center bg-[#f9f9ea] w-full gap-10 lg:h-svh py-10 lg:py-0 px-6 md:px-20 lg:px-40">
+    <footer className="flex flex-col md:flex-row items-center justify-center bg-[#f9f9ea] w-full gap-10 lg:h-svh py-10 px-6 md:px-20 lg:px-40">
       {/* IMAGE */}
       <div className="flex justify-center items-center w-full lg:w-1/2">
         <div
