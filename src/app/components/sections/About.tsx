@@ -14,7 +14,7 @@ const About = () => {
       </div>
 
       <div className="w-full lg:w-1/2 flex justify-center items-center md:justify-start">
-        <p className="text-md text-justify md:text-2xl">
+        <p className="font-poppins text-md text-justify md:text-2xl">
           A freelance virtual assistant who is proficient in handling
           administrative projects, including but not limited to: document
           creation, data entry, and social media management. Can work one-on-one
