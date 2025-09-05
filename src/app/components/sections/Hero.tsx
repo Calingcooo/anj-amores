@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import HeroImage from "../../../../public/assets/hero.png";
+import MyPicStanding from "../../../../public/assets/my-pic-standing.png"
 
 const Hero = () => {
   return (
@@ -21,16 +22,16 @@ const Hero = () => {
 
       {/* IMAGE */}
       <div
-        className="overflow-hidden w-[min(80svw,20rem)] h-[min(80svw,20rem)] md:w-[min(40svw,28rem)] md:h-[min(40svw,28rem)]"
+        className="overflow-hidden w-[min(80svw,20rem)] h-[min(80svw,20rem)] md:w-[min(40svw,35rem)] md:h-[min(40svw,40rem)]"
         style={{
           clipPath:
-            "polygon(100% 17%, 100% 55%, 59% 100%, 0 100%, 0 39%, 37% 0, 73% 0)",
+            "polygon(100% 17%, 100% 55%, 65% 100%, 0 100%, 0 30%, 35% 0, 73% 0)",
         }}
       >
         <Image
-          src={HeroImage}
+          src={MyPicStanding}
           alt="My Image"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-fill"
           priority
         />
       </div>
