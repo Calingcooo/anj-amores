@@ -1,4 +1,5 @@
 import React from "react";
+import MyPicSitting from "../../../public/assets/my-pic-sitting.png"
 import HeroImage from "../../../public/assets/hero.png";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import Image from "next/image";
@@ -42,16 +43,16 @@ const Footer = () => {
       {/* IMAGE */}
       <div className="flex justify-center items-center w-full lg:w-1/2">
         <div
-          className="overflow-hidden w-[min(80svw,20rem)] h-[min(80svw,20rem)] md:w-[min(40svw,28rem)] md:h-[min(40svw,28rem)]"
+          className="overflow-hidden w-[min(80svw,20rem)] h-[min(80svw,20rem)] md:w-[min(40svw,30rem)] md:h-[min(40svw,32rem)]"
           style={{
             clipPath:
-              "polygon(100% 17%, 100% 55%, 59% 100%, 0 100%, 0 39%, 37% 0, 73% 0)",
+              "polygon(100% 17%, 100% 55%, 65% 100%, 0 100%, 0 30%, 35% 0, 73% 0)",
           }}
         >
           <Image
-            src={HeroImage}
+            src={MyPicSitting}
             alt="My Image"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-fit"
             priority
           />
         </div>

@@ -9,7 +9,7 @@ const Navigation = () => {
   const navItems = items.map((item: { id: number; name: string }) => {
     return (
       <li
-        className="capitalize text-[#304254] hover:text-[#181816] font-bold transition-colors duration-300"
+        className="capitalize px-3 py-1 text-[#304254] hover:text-[#181816] hover:bg-[#ccccc0] font-bold rounded-md cursor-pointer transition-colors duration-300"
         key={item.id}
       >
         <a href="#">{item.name}</a>
@@ -64,7 +64,7 @@ const Navigation = () => {
       </aside>
 
       {/* Desktop view */}
-      <ul className="hidden md:flex flex-row items-center gap-8">
+      <ul className="hidden md:flex flex-row items-center gap-2">
         {navItems} <ResumeButton />
       </ul>
     </nav>
